@@ -6,7 +6,6 @@ function getIndex(list, id) {
         }
     }
     return  -1;
-
 }
 
 var messageApi = Vue.resource('/message{/id}');
